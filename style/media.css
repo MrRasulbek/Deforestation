@@ -1,0 +1,150 @@
+@media (min-width:576px) {
+               .first-section_right_link {
+                              width: 200px;
+               }
+
+               @keyframes first-section_icon {
+                              from {
+                                             transform: translateX(10px);
+                              }
+
+                              to {
+                                             transform: translateX(30px);
+                              }
+               }
+
+               .first-section_left_link_1 {
+                              font-size: 16px;
+               }
+
+               .first-section_left_link_2 {
+                              font-size: 15px;
+               }
+}
+
+@media (min-width:992px) {
+
+               .first-section_left_link_1 {
+                              font-size: 17px;
+               }
+
+               .first-section_left_link_2 {
+                              font-size: 16px;
+               }
+
+               .second-section_title {
+                              font-size: 45px;
+               }
+
+               .second-seciton_text {
+                              line-height: 24px;
+                              width: 70%;
+               }
+
+               .first-section_right_link {
+                              width: 250px;
+                              font-size: 20px;
+               }
+
+               .third-section_icon {
+                              font-size: 25px;
+               }
+
+               .third-seciton_title {
+                              font-size: 25px;
+                              line-height: 28px;
+               }
+
+               .third-section_text {
+                              font-size: 20px;
+                              line-height: 24px;
+               }
+
+               .third-section_link {
+                              font-size: 18px;
+                              width: 240px;
+                              height: 40px;
+               }
+}
+
+@media (min-width:1200px) {
+               .second-seciton_text {
+                              font-size: 28px;
+                              line-height: 35px;
+               }
+
+               .first-section_left_link_1 {
+                              font-size: 20px;
+               }
+
+               .first-section_left_link_2 {
+                              font-size: 17px;
+               }
+
+               .second-section_title {
+                              font-size: 50px;
+               }
+
+
+               .third-section_icon {
+                              font-size: 28px;
+               }
+
+               .third-seciton_title {
+                              font-size: 27px;
+                              line-height: 28px;
+               }
+
+               .third-section_text {
+                              font-size: 23px;
+                              line-height: 26px;
+               }
+
+               .third-section_link {
+                              font-size: 20px;
+                              width: 240px;
+                              height: 40px;
+               }
+
+               .third-section_box_inside {
+                              row-gap: 20px;
+               }
+
+               .third-seciton_title {
+                              font-size: 45px;
+                              margin: 15px 0px;
+                              line-height: 50px;
+                              text-align: center;
+               }
+
+               .second-section_title {
+                              font-size: 55px;
+               }
+}
+
+@media (min-width:1400px) {
+               .first-section_left_link_1 {
+                              font-size: 24px;
+               }
+
+               .first-section_left_link_2 {
+                              font-size: 20px;
+               }
+
+               .second-section_title {
+                              font-size: 60px;
+               }
+
+               .second-seciton_text {
+                              font-size: 28px;
+                              line-height: 40px;
+               }
+
+               .third-seciton_title {
+                              height: 100px;
+               }
+
+               .third-section_text {
+                              line-height: 36px;
+               }
+}

@@ -1,0 +1,188 @@
+@import "./fonts.css";
+@import "../fonts/all.min.css";
+
+* {
+               margin: 0px;
+               padding: 0px;
+               box-sizing: border-box;
+               text-decoration: none;
+               list-style: none;
+}
+
+:root {
+               --m800: "Montserrat-Black";
+               --m700: "Montserrat-Bold";
+               --m900: "Montserrat-ExtraBold";
+               --m500: "Montserrat-Medium";
+               --m400: "Montserrat-Regular";
+               --m600: "Montserrat-SemiBold";
+               --r700: "Roboto-Bold";
+               --r400: "Roboto-Regular";
+               --blue: #23A6F0;
+}
+
+
+body{
+               background-color: rgba(37, 43, 66, 1);
+}
+/* header begins from here please take note of that */
+.header {
+               height: 100vh;
+               background-image: url(../images/Beautiful_sunlight_at_forest-wallpaper-2560x1600-915x515.jpeg);
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-blend-mode: multiply;
+               background-color: rgba(0, 0, 0, 0.445);
+}
+
+/* first section begins form here please take note of that */
+.first-section_left_link_1 {
+               font-family: var(--m700);
+               font-size: 13px;
+               color: white;
+               text-transform: uppercase;
+}
+
+.first-section_left_link_2 {
+               font-family: var(--r700);
+               font-size: 13px;
+               color: white;
+               text-transform: uppercase;
+}
+
+.first-section_right_link {
+               width: 100px;
+               background-color: var(--blue);
+               color: white;
+               text-decoration: none;
+               transition: 0.5s;
+}
+
+.first-section_right_link:hover {
+               border-radius: 10px;
+               background-color: rgba(255, 255, 255, 0.596);
+               border: 1px solid white;
+}
+
+.first-section_icon {
+               animation-name: first-section_icon;
+               animation-timing-function: linear;
+               animation-duration: 2s;
+               animation-fill-mode: forwards;
+               animation-iteration-count: infinite;
+               animation-play-state: running;
+               animation-direction: alternate;
+}
+
+@keyframes first-section_icon {
+               from {
+                              transform: translateX(-15px);
+               }
+
+               to {
+                              transform: translateX(15px);
+               }
+
+}
+
+/* first section begins form here please take note of that */
+/* second section begins form here please take note of that */
+.second-section_title {
+               color: var(--blue);
+               font-family: var(--m700);
+               font-size: 40px;
+}
+
+.second-seciton_text {
+               color: white;
+               font-family: var(--m600);
+               line-height: 20px;
+}
+.second-seciton_span_title{
+               color: var(--blue);
+               font-size: 42px;
+}
+/* second section ends form here please take note of that */
+
+
+/* third section begins form here please take note of that */
+.third-section{
+               margin-top: -50px;
+}
+.third-section_box_inside{
+               background-color: #fff;
+               height: 100%;
+               border-radius: 10px;
+               row-gap: 10px;
+               transition: 1s;
+}
+.third-section_box_inside:hover{
+               background-color: var(--blue);
+}
+.third-section_icon{
+               color: green;
+               font-size: 20px;
+               transition: 1.5s;
+}
+.third-section_box_inside:hover .third-section_icon{
+               color: white;
+}
+.third-section_link{
+               text-decoration: none;
+               color: white;
+               border-radius: 10px;
+               font-size: 16px;
+               width: 200px;
+               height: 40px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               background-color: var(--blue);
+               transition: 1s;
+}
+.third-section_box_inside:hover .third-section_link{
+               color: var(--blue);
+               background-color: #fff;
+}
+.third-section_link_icon{
+               margin-left: 15px;
+}
+
+.third-seciton_title{
+               font-family: var(--m700);
+               font-size: 20px;
+               line-height: 24px;
+               letter-spacing: 0.07px;
+               color: #252B42;
+               transition: 1s;
+               text-align: center;
+}
+.third-section_box_inside:hover .third-seciton_title{
+               color: white;
+}
+.third-section_text{
+               font-family: var(--m500);
+               font-size: 17px;
+               line-height: 20px;
+               letter-spacing: 0.15px;
+               color: #737373;
+               transition: 1s;
+}
+.third-section_box_inside:hover .third-section_text{
+               color: white;
+}
+/* third section ends form here please take note of that */
+
+
+
+/* header ends from here please take note of that */
+.third-section_img{
+               width: 90%;
+               border: 10px;
+}
+.third-section_box_inside{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+}
